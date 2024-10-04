@@ -1,3 +1,15 @@
+from PyQt6.QtWidgets import QApplication, QMainWindow
+
+app = QApplication([])
+
+window = QMainWindow("push it real good")
+window.show()
+
+app.exec()
+
+
+#########################
+'''
 import sqlite3
 
 conn = sqlite3.connect("tsf.db")
@@ -13,3 +25,4 @@ for row in cur:
 
 cur.close()
 conn.close()
+'''
